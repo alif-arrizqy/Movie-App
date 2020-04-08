@@ -18,7 +18,7 @@ import java.util.List;
  * Author by Alif Ayatulloh Ar-Rizqy, Time 8:10 PM, Date on 4/7/2020.
  * follow me on www.github.com/alif-arrizqy
  */
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
+public class RecyclerViewAdapter<C> extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
     private Context mContext;
     private List<Movie> mData;
 
@@ -74,4 +74,5 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             cardView = itemView.findViewById(R.id.cardView_item);
         }
     }
+
 }

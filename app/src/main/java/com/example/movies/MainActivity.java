@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +17,7 @@ import java.util.List;
  */
 public class MainActivity extends AppCompatActivity {
     List<Movie> listmovie;
+    private String title = "Movies App";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,10 +56,11 @@ public class MainActivity extends AppCompatActivity {
                 "\n" +
                 "Misi Poppy dan Branch kali ini menyatukan semua suku dan mengagalkan keinginan suku musik Rock.\n", "Semua Umur", "Animation, Comedy", R.drawable.trollsworldtour));
 
-
         RecyclerView myRecyclerView = findViewById(R.id.recyclerview);
+
         RecyclerViewAdapter rvAdapter = new RecyclerViewAdapter(this, listmovie);
         myRecyclerView.setLayoutManager(new GridLayoutManager(this, 3));
         myRecyclerView.setAdapter(rvAdapter);
     }
+
 }
