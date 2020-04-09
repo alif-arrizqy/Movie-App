@@ -75,4 +75,5 @@ public class RecyclerViewAdapter<C> extends RecyclerView.Adapter<RecyclerViewAda
         }
     }
 
+
 }

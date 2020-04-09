@@ -5,8 +5,6 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +15,6 @@ import java.util.List;
  */
 public class MainActivity extends AppCompatActivity {
     List<Movie> listmovie;
-    private String title = "Movies App";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

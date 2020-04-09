@@ -8,7 +8,10 @@ import android.os.Bundle;
 import android.view.WindowManager;
 import android.widget.MediaController;
 import android.widget.VideoView;
-
+/**
+ * Author by Alif Ayatulloh Ar-Rizqy,Time on 9:16 PM, Date on 4/8/2020.
+ * follow me on www.github.com/alif-arrizqy
+ */
 public class Video extends AppCompatActivity {
     private VideoView videoV;
     @Override

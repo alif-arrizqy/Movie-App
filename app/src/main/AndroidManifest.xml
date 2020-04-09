@@ -16,7 +16,10 @@
             android:theme="@style/VideoTheme"
             tools:ignore="LockedOrientationActivity" />
         <activity android:name=".MovieView" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreenStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
