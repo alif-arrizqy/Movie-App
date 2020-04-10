@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.movies">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -10,13 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Video"
-            android:screenOrientation="landscape"
-            android:theme="@style/VideoTheme"
-            tools:ignore="LockedOrientationActivity" />
-        <activity android:name=".MovieView" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".DetailMovieView" />
+        <activity android:name=".datalocal.DataMovie"/>
+        <activity android:name=".datalocal.DataVideo"/>
         <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashScreenStyle">
