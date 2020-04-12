@@ -48,7 +48,7 @@ public class DetailMovieView extends AppCompatActivity implements View.OnClickLi
             img.setImageResource(intent_image);
 
         if (getSupportActionBar()!=null){
-            getSupportActionBar().setTitle("Detail Movie "+ title);
+            getSupportActionBar().setTitle((intent_title));
         }
         }
     }

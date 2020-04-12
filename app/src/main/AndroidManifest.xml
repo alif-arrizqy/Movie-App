@@ -13,7 +13,6 @@
         android:theme="@style/AppTheme">
         <activity android:name=".DetailMovieView" />
         <activity android:name=".datalocal.DataMovie"/>
-        <activity android:name=".datalocal.DataVideo"/>
         <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashScreenStyle">
